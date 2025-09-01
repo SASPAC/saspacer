@@ -9,17 +9,17 @@
 ### Version information:
   
 - Package: SASPACer
-- Version: 0.3.2
-- Generated: 2025-08-26T20:58:14
+- Version: 0.3.4
+- Generated: 2025-09-02T07:48:41
 - Author(s): Ryo Nakaya (nakaya.ryou@gmail.com)
 - Maintainer(s): Ryo Nakaya (nakaya.ryou@gmail.com)
 - License: MIT
-- File SHA256: `F*0689E3A3EB5F2DC5D4B11784665281B24530AA135985D9AEEAB4911137D41F63` for this version
-- Content SHA256: `C*8ED74584F58165C184D1F8612E77FD39C30EB5744407459F8F17C771AC08C8BC` for this version
+- File SHA256: `F*D8C1100EC4530FC375E742F32A97823488118E143386E3656EEAB34F90D7658B` for this version
+- Content SHA256: `C*6706384EC400074730FF7D2D71FF6FD59963FF0EA2498ED6D7B49B41DA9E9EE5` for this version
   
 ---
  
-# The `SASPACer` package, version: `0.3.2`;
+# The `SASPACer` package, version: `0.3.4`;
   
 ---
  
@@ -140,9 +140,7 @@ SAS package folders and files.
 
   1. `%ex2pac` expects the operating system to be either Windows or a non-Windows environment
   (such as Linux, Unix, etc.). The `&SYSSCP` macro variable is used to identify the current OS.
-  Only tested in Windows.
-
-  2. Libref named `e2p_xls` is used in the macro.
+  2. Libref named `e2p_xls` and `XLSCHK` are used in the macro.
   3. Max length of 32767 bytes is the limit in both cells in excel and reference file(.sas) in location column
   due to limitations in excel cell max length and max length of SAS variables used in the macro.
 
@@ -215,7 +213,7 @@ excel file with package information.
 
 ### Note:
 
-Only tested in Windows.
+Not applicable.
 
 ---
   
